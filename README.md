@@ -21,13 +21,9 @@ Used Pandas to plot the data for visually representing it.
 A basic analysis on 
 
 * Total number of stations
-
 * The most active stations
-
 * Listing the stations and observation counts in descending order
-
 * Station has the highest number of observations
-
 *  Retrieval of the last 12 months of temperature observation data (TOBS) and filtering by the station with the highest number of observations.
 
 A query was written using sqlalchemy for each of the above listed items. Used filter,groupby,orderby, aggregating functions like sum,count,min,max,avg,etc
